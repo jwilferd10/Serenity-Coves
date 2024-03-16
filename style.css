@@ -1,3 +1,16 @@
 body {
     background-color: #F1DAC4;
 }
+
+header nav {
+    background-color: #A69CAC;
+}
+
+header nav div {
+    margin: 0 0 0 25px;
+}
+
+header nav ul li {
+    padding: 20px 25px;
+    font-size: 20px
+}
