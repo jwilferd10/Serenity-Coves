@@ -1,5 +1,5 @@
 body {
-    background-color: #F1DAC4;
+    background-color: #f7f7f7;
 }
 
 header nav div {
@@ -23,4 +23,12 @@ header {
     background-size: cover;
     background-position: center; 
     background-attachment: fixed;
+}
+
+#intro-header {
+    font-size: 55px;
+}
+
+#intro-text {
+    font-size: 25px;
 }
