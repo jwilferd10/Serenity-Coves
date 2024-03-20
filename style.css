@@ -25,10 +25,32 @@ header {
     background-attachment: fixed;
 }
 
+#intro-wrapper {
+    width: 50%;
+}
+
 #intro-header {
     font-size: 55px;
 }
 
 #intro-text {
     font-size: 25px;
+}
+
+@media (max-width: 700px) {
+    .nav-list {
+        display: none;
+    }
+
+    #intro-wrapper {
+        width: 90%;
+    }
+
+    #intro-header {
+        font-size: 40px;
+    }
+
+    #intro-text {
+        font-size: 20px;
+    }
 }
