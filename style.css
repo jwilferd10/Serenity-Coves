@@ -37,6 +37,20 @@ header {
     font-size: 25px;
 }
 
+#featureCard1 {
+    padding-bottom: 2rem;
+    background-image: url('./images/pexels-energepiccom-313690.jpg');
+    background-size: cover;
+    background-position: center; 
+}
+
+#featureCard2 {
+    padding-bottom: 2rem;
+    background-image: url('./images/pexels-lisa-fotios-1485548.jpg');
+    background-size: cover;
+    background-position: center; 
+}
+
 footer {
     background-color: black;
     color: white
