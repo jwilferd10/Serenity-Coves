@@ -49,6 +49,10 @@ header {
     background-position: center; 
 }
 
+.feature-card {
+    border-radius: 15px
+}
+
 .feature-wrapper {
     margin: 0px 0px 15px;
     padding-top: 500px;
