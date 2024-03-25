@@ -50,7 +50,8 @@ header {
 }
 
 .feature-card {
-    border-radius: 15px
+    border-radius: 15px;
+    box-shadow: 4px 3.5px 4px #b1b1b1;
 }
 
 .feature-wrapper {
