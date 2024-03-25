@@ -38,27 +38,25 @@ header {
 }
 
 #featureCard1 {
-    padding-bottom: 2rem;
     background-image: url('./images/pexels-energepiccom-313690.jpg');
     background-size: cover;
     background-position: center; 
 }
 
 #featureCard2 {
-    padding-bottom: 2rem;
     background-image: url('./images/pexels-lisa-fotios-1485548.jpg');
     background-size: cover;
     background-position: center; 
 }
 
 .feature-wrapper {
-    margin: 75px 75px 75px 75px;
-
+    margin: 0px 0px 15px;
+    padding-top: 500px;
 }
 
 .feature-text-body {
     padding: 24px 20px;
-    background-color: rgb(241, 241, 241);
+    background-color: rgba(241, 241, 241, 0.772);
 }
 
 footer {
