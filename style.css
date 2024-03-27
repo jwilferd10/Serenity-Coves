@@ -107,6 +107,8 @@ header {
 .explore-card-class {
     padding: 10px 15px;
     background-color: rgb(241 241 241 / 75%);
+    height: 100%; /* Set a fixed height */
+
 }
 
 footer {
