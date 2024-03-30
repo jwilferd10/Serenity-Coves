@@ -117,11 +117,42 @@ footer {
     color: white
 }
 
+.form-wrapper {
+    gap: 25px;
+}
+
+#form-input {
+    width: 150px;
+    border-radius: 5px 0px 0px 5px;
+}
+
+#form-btn {
+    width: 100px;
+    border-radius: 0px 5px 5px 0px
+}
+
 #lowerFooter {
     background-color: rgb(16, 16, 16);
 }
 
-@media (max-width: 700px) {
+@media (max-width: 1063px) {
+    .form-spacing {
+        padding-top: 15% !important;
+    }
+}
+
+@media (max-width: 890px) {
+    .form-spacing {
+        padding-top: unset !important
+    }
+
+    #form-btn {
+        width: 200px;
+    }
+    
+}
+
+@media (max-width: 700px) {    
     .nav-list {
         display: none;
     }
@@ -143,6 +174,10 @@ footer {
     .feature-card {
         margin-left: calc((100vw - 100%) / -2);
         margin-right: calc((100vw - 100%) / -2);
+    }
+
+    #form-btn {
+        width: 100px;
     }
 }
 

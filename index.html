@@ -115,20 +115,27 @@
                 </a>
             </section>
             <!-- Sign-Up Form Section -->
-            <section class="p-2">
-                <!-- Form Setup -->
-                <div>
-                    <h3>Check out our newsletter!</h3>
-                    <p>Fine tune your growth and learn new tips and tricks to help facilitate that.</p>
-                </div>
-
-                <form class="form-inline d-flex justify-content-center">
-                    <div class="form-group mx-sm-3 mb-2">
-                      <label for="inputEmail1" class="sr-only"></label>
-                      <input type="email" class="form-control" id="emailInput" placeholder="Enter your email">
+            <section class="p-2 mt-3">
+                <div class="row d-flex justify-content-center form-wrapper">
+                    <!-- Text Column -->
+                    <div class="col-md-4">
+                        <div class="text-start">
+                            <h3>Check out our newsletter!</h3>
+                            <p>Tune out the filler and get straight to the point. Fine tune your growth and learn new tips to help facilitate that. We're here when you're ready.</p>
+                        </div>
                     </div>
-                    <button type="submit" class="btn btn-primary mb-2">Sign Up</button>
-                </form>
+            
+                    <!-- Form Column -->
+                    <div class="col-md-5">
+                        <form class="form-spacing pt-2">
+                            <div class="form-group mx-sm-3 mb-2 d-flex pt-3">
+                                <label for="inputEmail1" class="sr-only"></label>
+                                <input type="email" id="form-input" class="form-control flex-grow-1" id="emailInput" placeholder="Enter your email">
+                                <button type="submit" id="form-btn" class="btn btn-primary btn-square">Sign Up</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
             </section>
         </footer>
 
