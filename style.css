@@ -122,6 +122,7 @@ header {
 
 #about-us-image {
     opacity: 0.9;
+    box-shadow: 1.5px 2.5px 3px #c4d5d5;
 }
 
 footer {
