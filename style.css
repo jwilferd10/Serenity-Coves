@@ -37,6 +37,11 @@ header {
     background-attachment: fixed;
 }
 
+.header-border {
+    padding-bottom: 1rem;
+    border-bottom: solid 1.5px #d2d1d1;
+}
+
 #intro-wrapper {
     width: 50%;
 }
