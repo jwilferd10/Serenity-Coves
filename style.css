@@ -14,6 +14,14 @@ body {
     box-shadow: 1.5px 3.5px 5px #b1b1b1;
 }
 
+.zoom-effect {
+    transition: transform 0.3s ease;
+}
+
+.zoom-effect:hover {
+    transform: scale(1.05);
+}
+
 header nav div {
     margin: 0 0 0 25px;
 }
@@ -67,8 +75,25 @@ header {
 }
 
 .feature-card {
+    overflow: hidden;
     border-radius: 15px;
     box-shadow: 4px 3.5px 4px #b1b1b1;
+}
+
+.feature-card::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: inherit;
+    background-size: cover;
+    background-position: center;
+    transition: transform 0.3s ease; 
+    z-index: -1;
+}
+
+.feature-card:hover::before {
+    transform: scale(1.1);
 }
 
 .feature-wrapper {
