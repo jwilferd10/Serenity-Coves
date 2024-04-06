@@ -24,6 +24,10 @@ body {
     box-shadow: 1.5px 3.5px 5px #b1b1b1;
 }
 
+.cursor-pointer {
+    cursor: pointer;
+}
+
 .zoom-effect {
     transition: transform 0.3s ease;
 }
@@ -31,6 +35,10 @@ body {
 .zoom-effect:hover {
     transform: scale(1.05);
     cursor: pointer;
+}
+
+.generic-text-color:hover {
+    color: #1d92c9;
 }
 
 header nav div {
