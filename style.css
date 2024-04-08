@@ -261,9 +261,18 @@ footer {
 }
 
 @media (max-width: 500px) {
-    .feature-card {
+    .feature-card,
+    #intro-header,
+    #intro-text,
+    #about-us-text,
+    .header-border {
         margin-left: calc((100vw - 100%) / -2);
         margin-right: calc((100vw - 100%) / -2);
+    }
+
+    .header-border,
+    #about-us-text {
+        text-align: center !important;
     }
 
     #form-btn {
