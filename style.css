@@ -37,6 +37,11 @@ body {
     cursor: pointer;
 }
 
+.generic-text-color {
+    color: inherit;
+    text-decoration: none;
+}
+
 .generic-text-color:hover {
     color: #1d92c9;
 }
