@@ -60,6 +60,23 @@ header nav ul li {
     color: white;
 }
 
+#learn-more-btn {
+    border: 2px solid white;
+    color: white;
+    background-color: #1d92c965;
+    transition: transform 0.2s ease; 
+}
+
+#learn-more-btn:hover {
+    background-color: #1d92c9;
+    transform: scale(1.1);
+}
+
+#learn-more-btn:active {
+    background-color: #135c7e;
+    transform: scale(0.9);
+}
+
 header {
     width: 100%;
     padding-bottom: 2rem;
