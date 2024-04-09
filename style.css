@@ -260,6 +260,12 @@ footer {
     }
 }
 
+@media (max-width: 767px) {
+    #lower-footer-text {
+        text-align: center !important;
+    }
+}
+
 @media (max-width: 500px) {
     .feature-card,
     #intro-header,
