@@ -212,10 +212,6 @@ footer {
     color: white
 }
 
-.form-wrapper {
-    gap: 25px;
-}
-
 #form-input {
     width: 150px;
     border-radius: 5px 0px 0px 5px;
@@ -230,9 +226,15 @@ footer {
     background-color: rgb(16, 16, 16);
 }
 
+@media (max-width: 1250px) {
+    .form-spacing {
+        padding-top: 7% !important;
+    }
+}
+
 @media (max-width: 1063px) {
     .form-spacing {
-        padding-top: 15% !important;
+        padding-top: 1% !important
     }
 }
 
