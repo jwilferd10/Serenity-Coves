@@ -20,7 +20,7 @@
   - [Contact Information](#e-mail-contact-information)
 
 ## :wave: Description: 
-Serenity Coves is a wellness platform that highlights health related news.
+Serenity Coves is an online wellness platform dedicated to providing curated health-related news and insights. The website's design draws inspiration from leading platforms, built to reflect an understanding of modern user experience and best practices in front-end development.
 
 ## :book: User Story:
 
