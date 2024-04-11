@@ -227,7 +227,13 @@ footer {
 
 #form-btn {
     width: 200px;
-    border-radius: 0px 5px 5px 0px
+    border-radius: 0px 5px 5px 0px;
+    background-color: #1d92c9;
+}
+
+#form-btn:hover {
+    background-color: #146286;
+    color: white;
 }
 
 #lowerFooter {
