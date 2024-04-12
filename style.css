@@ -240,6 +240,10 @@ footer {
     background-color: rgb(16, 16, 16);
 }
 
+#modal-text-content {
+    padding: 50px 20px 20px;
+}
+
 @media (max-width: 1250px) {
     .form-spacing {
         padding-top: 7% !important;
