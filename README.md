@@ -1,8 +1,8 @@
 # Serenity Coves
 
-:computer: **Live Deployment**:
+:computer: **Live Deployment**: https://jwilferd10.github.io/Front-End-Project1/
 
-:computer: **Github Repository**:
+:computer: **Github Repository**: https://github.com/jwilferd10/Front-End-Project1
 
 ## :open_file_folder: Table of Contents:
   - [Preview](#camera-preview)
