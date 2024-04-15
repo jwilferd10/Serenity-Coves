@@ -256,6 +256,17 @@ footer {
     }
 }
 
+@media (max-width: 991px) {
+    #modal-text-content {
+        padding: 5px 20px 20px;
+    }
+
+    #modal-image {
+        height: 100% !important;
+        object-fit: cover !important;
+    }
+}
+
 @media (max-width: 890px) {
     .form-spacing {
         padding-top: unset !important
