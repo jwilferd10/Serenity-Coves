@@ -27,7 +27,7 @@ Serenity Coves was made with the intent to try new things and learn. That being 
 This project has been an amazing experience, originally Serenity Coves was just an idea to see if I can create a static landing page from the ground up. As a developer seeing the outcome today is always exciting. In the future I'd like to use lessons learned from this project to create a more polished and dynamic web application.
 
 ### 🙏 Thank You!
-So much for checking out Serenity Coves. Thank you always, happy coding! 
+Thanks so much for checking out Serenity Coves, like any project it's always a journey. Personally I'm happy with the end product and believe this design can perform for a health and wellness platform. Thank you always, happy coding! 
 
 ## :book: User Story:
 **AS A health and wellness platform building an online presence**
