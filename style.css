@@ -105,20 +105,18 @@ header nav ul li {
 
 #featureCard1 {
     background-image: url('./images/pexels-energepiccom-313690.jpg');
-    background-size: cover;
-    background-position: center; 
 }
 
 #featureCard2 {
     background-image: url('./images/pexels-lisa-fotios-1485548.jpg');
-    background-size: cover;
-    background-position: center; 
 }
 
 .feature-card {
     overflow: hidden;
     border-radius: 15px;
     box-shadow: 4px 3.5px 4px #b1b1b1;
+    background-size: cover;
+    background-position: center; 
 
     &::before {
         content: "";
