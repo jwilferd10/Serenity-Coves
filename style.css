@@ -55,52 +55,52 @@ header nav ul li {
     font-size: 20px
 }
 
-#navbar {
-    background-color: rgba(42, 42, 42, 0.886);
-    color: white;
-}
-
-#learn-more-btn {
-    border: 2px solid white;
-    color: white;
-    background-color: #1d92c965;
-    transition: transform 0.2s ease; 
-}
-
-#learn-more-btn:hover {
-    background-color: #1d92c9;
-    transform: scale(1.1);
-}
-
-#learn-more-btn:active {
-    background-color: #135c7e;
-    transform: scale(0.9);
-}
-
-#project-header {
+.project-header {
     width: 100%;
     padding-bottom: 2rem;
     background-image: url('./images/pexels-rovenimagescom-949587.jpg');
     background-size: cover;
     background-position: center; 
     background-attachment: fixed;
+
+    nav {
+        background-color: rgba(42, 42, 42, 0.886);
+        color: white;
+    }
+
+    #intro-container {
+        width: 50%;
+    
+        h2 {
+            font-size: 55px;
+        }
+    
+        p {
+            font-size: 25px;
+        }
+
+        #learn-more-btn {
+            border: 2px solid white;
+            color: white;
+            background-color: #1d92c965;
+            transition: transform 0.2s ease; 
+        
+            &:hover {
+                background-color: #1d92c9;
+                transform: scale(1.1);
+            }
+        
+            &:active {
+                background-color: #135c7e;
+                transform: scale(0.9);
+            }
+        }  
+    }  
 }
 
 .header-border {
     padding-bottom: 1rem;
     border-bottom: solid 1.5px #d2d1d1;
-}
-
-#intro-wrapper {
-    width: 50%;
-}
-
-#intro-header {
-    font-size: 55px;
-}
-
-#intro-text {
-    font-size: 25px;
 }
 
 main > section:first-of-type {
