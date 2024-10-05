@@ -207,14 +207,18 @@ main > section:first-of-type {
 footer {
     background-color: black;
     color: white;
-}
 
-.footer-btn {
-    color: white;
-}
+    .footer-btn {
+        color: white;
 
-.footer-btn:hover {
-    color: #1d92c9;
+        &:hover {
+            color: #1d92c9;
+        }
+    }
+
+    #lowerFooter {
+        background-color: rgb(16, 16, 16);
+    }
 }
 
 #form-input {
@@ -230,10 +234,6 @@ footer {
 #form-btn:hover {
     background-color: #146286;
     color: white;
-}
-
-#lowerFooter {
-    background-color: rgb(16, 16, 16);
 }
 
 #modal-text-content {
