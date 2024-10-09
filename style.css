@@ -16,10 +16,6 @@ body {
     gap: 50px;
 }
 
-.cursor-pointer {
-    cursor: pointer;
-}
-
 .zoom-effect {
     transition: transform 0.3s ease;
 
@@ -59,7 +55,8 @@ header nav div {
 
             li {
                 padding: 20px 25px;
-                font-size: 20px
+                font-size: 20px;
+                cursor: pointer;
             }
         }
     }
