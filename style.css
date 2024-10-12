@@ -3,6 +3,7 @@
     --background-color: #f7f7f7;
     --secondary-background-color: #e7ffff;
     --light-text: #f5f4f4;
+    --primary-blue-color: #1d92c9;
 }
 
 body {
@@ -38,7 +39,7 @@ body {
 }
 
 .generic-text-color:hover {
-    color: #1d92c9;
+    color: var(--primary-blue-color);
 }
 
 header nav div {
@@ -86,7 +87,7 @@ header nav div {
             transition: transform 0.2s ease; 
         
             &:hover {
-                background-color: #1d92c9;
+                background-color: var(--primary-blue-color);
                 transform: scale(1.1);
             }
         
@@ -203,7 +204,7 @@ main > section:first-of-type {
         font-style: italic;
 
         &:hover {
-            color: #1d92c9;
+            color: var(--primary-blue-color);
         }
     }
 }
@@ -216,7 +217,7 @@ footer {
         color: var(--light-text);
 
         &:hover {
-            color: #1d92c9;
+            color: var(--primary-blue-color);
         }
     }
 
@@ -232,7 +233,7 @@ footer {
 
 #form-btn {
     border-radius: 0px 5px 5px 0px;
-    background-color: #1d92c9;
+    background-color: var(--primary-blue-color)
 }
 
 #form-btn:hover {
