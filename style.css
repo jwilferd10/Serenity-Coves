@@ -1,9 +1,11 @@
-/* Set a color kit that can be used throughout the project */
-:root {
-    --background-color: #f7f7f7;
-    --secondary-background-color: #e7ffff;
-    --light-text: #f5f4f4;
-    --primary-blue-color: #1d92c9;
+/* Color Variables */
+@layer base {
+    :root {
+        --background-color: #f7f7f7;
+        --secondary-background-color: #e7ffff;
+        --light-text: #f5f4f4;
+        --primary-blue-color: #1d92c9;
+    }
 }
 
 body {
