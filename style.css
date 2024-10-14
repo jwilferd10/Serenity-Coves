@@ -38,10 +38,10 @@ body {
 .generic-text-color {
     color: inherit;
     text-decoration: none;
-}
 
-.generic-text-color:hover {
-    color: var(--primary-blue-color);
+    &:hover {
+        color: var(--primary-blue-color);
+    }
 }
 
 .project-header {
