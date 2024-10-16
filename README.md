@@ -15,16 +15,16 @@
 
 ## :wave: Description: 
 ### 💭 Keep Your Peace of Mind
-Serenity Coves is an online wellness platform dedicated to providing curated health-related news and insights. The website's design draws inspiration from leading platforms, built to reflect an understanding of modern user experience and best practices in front-end development.
+Serenity Coves is a mock online wellness platform dedicated to providing curated health-related news and insights. The website's design draws inspiration from leading platforms, built to reflect an understanding of modern user experience and best practices in front-end development.
 
 ### 🎯 Follows Modern Designs:
 The objective of this repository was to build an application that showcases an understanding for wireframing, designing, and creating a platform similar to the websites seen and used today. 
 
 ### 🌐 Accessible and Open:
-Serenity Coves was made with the intent to try new things and learn. That being said if any aspect of this project piques your interest, feel free to delve into this repository and check it out! 
+Serenity Coves was developed with the intention to learn and try new things. Should any aspect of this project be of interest, the repository is open for you to use.
 
 ### 💭 Developer Notes:
-This project has been an amazing experience, originally Serenity Coves was just an idea to see if I can create a static landing page from the ground up. As a developer seeing the outcome today is always exciting. In the future I'd like to use lessons learned from this project to create a more polished and dynamic web application.
+The original objective was to create a static landing-page anyway possible. Upon completion this repository has become a sandbox for practicing semantic HTML and modern CSS use.
 
 ### 🙏 Thank You!
 Thanks so much for checking out Serenity Coves, like any project it's always a journey. Personally I'm happy with the end product and believe this design can perform for a health and wellness platform. Thank you always, happy coding! 
